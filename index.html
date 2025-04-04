@@ -1,0 +1,23 @@
+<!-- // 經過主頁面 -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忍者跳躍 - Ninja Jump</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>忍者跳躍</h1>
+        <p>控制你的忍者跳躍到更高的地方，挑戰最高分數！</p>
+        <button id="start-game">開始遊戲</button>
+    </div>
+
+    <script>
+        document.getElementById("start-game").addEventListener("click", function() {
+            window.location.href = "game.html"; // 進入遊戲畫面
+        });
+    </script>
+</body>
+</html>

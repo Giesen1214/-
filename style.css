@@ -1,0 +1,41 @@
+/* 全局設定 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* 主要內容 */
+.game-container {
+    margin-top: 100px;
+}
+
+/* 標題 */
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* 按鈕設計 */
+button {
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* 遊戲介紹文字 */
+p {
+    font-size: 18px;
+}
