@@ -69,7 +69,9 @@ function create() {
 }
 function update() {
     let isOnGround = player.body.onFloor();
-    console.log(isOnGround);
+    if (player.y >= config.height - player.height / 2) {
+        window.location.href = "/Finish.html";
+    }
 
     // 🔹 **左右移動**
     let moveSpeed = 0;

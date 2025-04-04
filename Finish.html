@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>你已死亡</title>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    }
+
+    h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 20px red;
+    animation: flicker 1.5s infinite alternate;
+    }
+
+    p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    }
+
+    .btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+    background-color: crimson;
+    }
+
+    @keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+    }
+</style>
+</head>
+<body>
+<h1>你已死亡</h1>
+<p>再接再厲，忍者。</p>
+<a class="btn" href="/game.html">重試</a>
+</body>
+</html>
